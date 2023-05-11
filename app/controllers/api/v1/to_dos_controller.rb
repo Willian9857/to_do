@@ -1,7 +1,7 @@
 module Api
   module V1
     class ToDosController < ApplicationController
-      before_action :to_do, only: [:show, :update, :destroy]
+      before_action :to_do, only: %i[show update destroy]
       rescue_from ActiveRecord::RecordNotFound, with: :not_found
 
       def index
@@ -30,8 +30,6 @@ module Api
 
       def destroy
         @to_do.destroy
-      rescue
-        render json: @to_do.errors, status: :unprocessable_entity
       end
 
       private

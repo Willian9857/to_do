@@ -9,6 +9,8 @@
 
 #Ignore env
 .env
+coverage
+.idea
 
 # Ignore the default SQLite database.
 /db/*.sqlite3

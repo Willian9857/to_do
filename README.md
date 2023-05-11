@@ -1,24 +1,16 @@
-# README
+### O que é o projeto?
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Git clone
 
-Things you may want to cover:
+Clone o projeto do Git e acesse a pasta do projeto.
+```
+git clone 
+cd /
+```
 
-* Ruby version
+### Variáveis de ambiente
+Copie o arquivo de exemplo e coloque a autentificação 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+cp .env.example .env
+```

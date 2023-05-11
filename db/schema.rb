@@ -11,7 +11,7 @@
 # It's strongly recommended that you check this file into your version control system.
 
 ActiveRecord::Schema[7.0].define(version: 2023_04_20_133820) do
-  create_table "to_do", force: :cascade do |t|
+  create_table "to_dos", force: :cascade do |t|
     t.string "title"
     t.string "body"
     t.date "end_date"
